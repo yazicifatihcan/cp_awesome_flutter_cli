@@ -60,7 +60,7 @@ class $mainViewClassName extends StatelessWidget {
 }""";
 
   String get controllerFileContent => """
-import 'package:flutter_base_project/app/controllers/base_controller.dart';
+import 'package:flutter_base_project/app/common/base_view/controller/base_controller.dart';
 
 class $controllerClassName extends BaseControllerInterface {
 
@@ -79,7 +79,7 @@ class $controllerClassName extends BaseControllerInterface {
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../$controllerFolderName/$controllerFileName';
-import 'package:flutter_base_project/app/components/other_widgets/base_view.dart';
+import 'package:flutter_base_project/app/common/base_view/base_view.dart';
   
 class $_viewClassName extends GetView<$controllerClassName> {
   const $_viewClassName({Key? key}) : super(key: key);

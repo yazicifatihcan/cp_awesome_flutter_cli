@@ -13,7 +13,7 @@ dependencies:
 
 executables:
   cp_cli: cp_awesome_flutter_cli
-  cp: cp_awesome_flutter_cli
+  cpcli: cp_awesome_flutter_cli
 
 dev_dependencies:
   lints: ^2.0.1
